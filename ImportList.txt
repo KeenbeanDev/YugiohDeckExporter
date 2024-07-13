@@ -1,0 +1,4 @@
+REMOVE ALL TEXT IN THIS FILE BEFORE ADDING YOUR PATHS, OR THE PROGRAM WILL FAIL
+
+Example:
+C:\Users\<user>\Documents\YuGiOh Decks\Yugi

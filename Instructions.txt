@@ -1,0 +1,38 @@
+HOW TO USE YUGIOH PDF EXPORTER
+==============================
+
+== PRE-SETUP NOTES ==
+This tool is designed to take a series of Yugioh Card images and place them onto an A3-sized PDF document.
+
+The system may trigger some anti-virus software, due to scanning text files and images. The program is hard-coded to find specific files based on the contents of ImportList.txt.
+This consists of the numeric IDs of images from ygoprodeck.com,  and the .txt file with the same name as the folder. It will not scan anything else.
+
+You will need .NET 7.0 installed for this to run. Visit https://dotnet.microsoft.com/en-us/download/dotnet/7.0. Simply download the installer for your machine (i.e. for Windows 10, Win x64 installer).
+
+1) == SETUP == 
+	a) Visit https://ygoprodeck.com/deck-search/, and search for a deck you like. Optionally import an existing deck from elsewhere.
+	b) Create a folder on your PC with a suitable name, such as 'Yugi'
+	c) Create a new .txt file inside your folder, with the same name. In our example, this would be Yugi\\Yugi.txt
+
+2) == DOWNLOAD REFERENCES ==
+	a) On your ygoprodeck.com deck view, click the 'More...' dropdown, and 'Download All Images'.
+	b) Extract all images from the download and place inside your created folder, such as "Yugi\\38033121.jpg"
+	c) In the same dropdown on the deck view, click 'Export Deck', and copy the 'Export to Tabletop Simulator' text.
+	d) Paste this text inside of the text file you created.
+	
+3) == CONFIGURATION ==  
+	a) Open your folder containing your images and .txt file, and copy the file path (Click the navigation bar at the top, and copy the text there).
+	b) Open "ImportList.txt" in the same folder as these instructions, and clear all text in the file.
+	c) Paste the copied file path onto a single line, then save the file.
+		- If you wish to process multiple decks at once, please ensure each file path is on separate lines.
+		
+4) == RUNNING THE APP ==
+	a) Double-click the 'Yu-Gi-Oh_Deck-to-PDF.exe' application and let the process run.
+	b) Navigate to the 'Output-Decks' folder, which will be created beside the .exe.
+	c) View the PDF file(s) created to ensure all cards are included.
+	d) Print your PDF on a printer in A3 size
+	
+Congratulations, you now have a free deck printed! You can optionally attach an A3 card to the back of your prints for added structural stability.
+Happy Dueling!
+
+- Keenbeandev
